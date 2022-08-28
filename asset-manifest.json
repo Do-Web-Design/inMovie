@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/inMovie/static/css/main.e1b04a93.css",
-    "main.js": "/inMovie/static/js/main.b4c10ae5.js",
-    "static/js/787.7ef640bb.chunk.js": "/inMovie/static/js/787.7ef640bb.chunk.js",
-    "static/media/logo.png": "/inMovie/static/media/logo.9198c6a09abce358ad12.png",
-    "static/media/movie_icon.png": "/inMovie/static/media/movie_icon.45b6b7f91f8020782414.png",
-    "static/media/instagram_icon.png": "/inMovie/static/media/instagram_icon.1c721e8460a380adef90.png",
-    "static/media/top_icon.png": "/inMovie/static/media/top_icon.b1283400f158c5ce6604.png",
-    "static/media/twitter_icon.png": "/inMovie/static/media/twitter_icon.4ccbf6d06f12f61339fb.png",
-    "static/media/serie_icon.png": "/inMovie/static/media/serie_icon.c8e16647a7466465c4f6.png",
-    "static/media/star_icon.png": "/inMovie/static/media/star_icon.d7d822b7ead3572edf67.png",
-    "static/media/search_icon.png": "/inMovie/static/media/search_icon.78704789caef44879fe5.png",
-    "static/media/home_icon.png": "/inMovie/static/media/home_icon.d27a6ea81f123b12c092.png",
-    "static/media/play_icon.png": "/inMovie/static/media/play_icon.e346e88f68f02e479d7c.png",
-    "static/media/user_image.png": "/inMovie/static/media/user_image.9c6e9a71cf683d97fa80.png",
-    "static/media/fb_icon.png": "/inMovie/static/media/fb_icon.0d8edd3b3243dde0b6f5.png",
-    "static/media/plus_icon.png": "/inMovie/static/media/plus_icon.a112259ce2861c16cba5.png",
-    "index.html": "/inMovie/index.html",
-    "main.e1b04a93.css.map": "/inMovie/static/css/main.e1b04a93.css.map",
-    "main.b4c10ae5.js.map": "/inMovie/static/js/main.b4c10ae5.js.map",
-    "787.7ef640bb.chunk.js.map": "/inMovie/static/js/787.7ef640bb.chunk.js.map"
+    "main.css": "/static/css/main.7d4f5103.css",
+    "main.js": "/static/js/main.021f9d0c.js",
+    "static/js/787.7ef640bb.chunk.js": "/static/js/787.7ef640bb.chunk.js",
+    "static/media/logo.png": "/static/media/logo.9198c6a09abce358ad12.png",
+    "static/media/movie_icon.png": "/static/media/movie_icon.45b6b7f91f8020782414.png",
+    "static/media/instagram_icon.png": "/static/media/instagram_icon.1c721e8460a380adef90.png",
+    "static/media/top_icon.png": "/static/media/top_icon.b1283400f158c5ce6604.png",
+    "static/media/twitter_icon.png": "/static/media/twitter_icon.4ccbf6d06f12f61339fb.png",
+    "static/media/serie_icon.png": "/static/media/serie_icon.c8e16647a7466465c4f6.png",
+    "static/media/star_icon.png": "/static/media/star_icon.d7d822b7ead3572edf67.png",
+    "static/media/search_icon.png": "/static/media/search_icon.78704789caef44879fe5.png",
+    "static/media/home_icon.png": "/static/media/home_icon.d27a6ea81f123b12c092.png",
+    "static/media/play_icon.png": "/static/media/play_icon.e346e88f68f02e479d7c.png",
+    "static/media/user_image.png": "/static/media/user_image.9c6e9a71cf683d97fa80.png",
+    "static/media/fb_icon.png": "/static/media/fb_icon.0d8edd3b3243dde0b6f5.png",
+    "static/media/plus_icon.png": "/static/media/plus_icon.a112259ce2861c16cba5.png",
+    "index.html": "/index.html",
+    "main.7d4f5103.css.map": "/static/css/main.7d4f5103.css.map",
+    "main.021f9d0c.js.map": "/static/js/main.021f9d0c.js.map",
+    "787.7ef640bb.chunk.js.map": "/static/js/787.7ef640bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b04a93.css",
-    "static/js/main.b4c10ae5.js"
+    "static/css/main.7d4f5103.css",
+    "static/js/main.021f9d0c.js"
   ]
 }
