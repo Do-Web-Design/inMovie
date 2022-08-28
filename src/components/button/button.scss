@@ -1,0 +1,25 @@
+.button {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0.2vw;
+  font-size: 18px;
+  padding: 15px 60px;
+  transition: all 0.2s;
+  text-decoration: none !important;
+
+  &__red {
+    background-color: #ed1d24;
+    &:hover {
+      background-color: #ed1d24de;
+    }
+  }
+  &__light {
+    background-color: rgb(187, 184, 184, 0.3);
+    border: 1px solid white;
+    &:hover {
+      background-color: rgba(187, 184, 184, 0.217);
+    }
+  }
+}
