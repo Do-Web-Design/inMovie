@@ -1,4 +1,4 @@
-inMovie - movie trailers
+inMovie - movie trailers (in progress)
 
 React App, using react-router-dom, axios, Sass, Swiper js, tmdb API, react-youTube.
 
