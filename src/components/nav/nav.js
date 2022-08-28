@@ -18,7 +18,7 @@ function Nav() {
     <Fragment>
       <div className={`nav ${show && "nav__bg"}`}>
         <div className="nav__left">
-          <Link to="/home">
+          <Link to="/">
             <img
               src={require("../../img/logo.png")}
               alt="Movie Logo"
@@ -26,7 +26,7 @@ function Nav() {
             />
           </Link>
           <div className="nav__links">
-            <Link className="nav__link" to="/home">
+            <Link className="nav__link" to="/">
               <img
                 src={require("../../img/home_icon.png")}
                 alt="Home Icon"

@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer__container">
         <div className="footer__content">
           <div className="footer__media">
-            <Link to="/home">
+            <Link to="/">
               <img
                 className="footer__media--logo logo-link"
                 alt="Surfo"
