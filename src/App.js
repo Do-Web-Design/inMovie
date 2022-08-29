@@ -5,10 +5,11 @@ import CommingSoon from "./routes/comingSoon/comingSoon";
 
 const App = () => {
   return (
-    <Routes>
-      <Route index path="/" element={<Home />} />
-      <Route path="comingSoon" element={<CommingSoon />} />
-    </Routes>
+    <Home />
+    // <Routes>
+    //   <Route index path="/" element={<Home />} />
+    //   <Route path="comingSoon" element={<CommingSoon />} />
+    // </Routes>
   );
 };
 
