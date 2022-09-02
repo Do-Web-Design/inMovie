@@ -2,7 +2,7 @@ inMovie - movie trailers (in progress)
 
 React App, using react-router-dom, axios, Sass, Swiper js, tmdb API, react-youTube.
 
-Web page https://do-web-design.github.io/inMovie/
+Web page https://inmovie-do-web-design.web.app/
 
 Quick preview:
 
