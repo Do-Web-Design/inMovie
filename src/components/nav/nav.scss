@@ -11,10 +11,10 @@
   background-image: linear-gradient(rgb(18, 18, 17), transparent);
 
   &__logo {
-    height: 50px;
+    height: 60px;
   }
   &__bg {
-    background-color: #111;
+    background-color: #0e0b14;
   }
   &__left,
   &__right {
@@ -42,7 +42,7 @@
   }
   &__user-image {
     position: absolute;
-    top: 12px;
+    top: 20px;
     height: 45px;
     width: 45px;
     padding-left: 20px;

@@ -20,7 +20,7 @@ const Row = ({ title, fetchUrl, largeRow, largeRowContainer }) => {
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results);
-      // console.log(request);
+      console.log(request);
       return request;
     }
     fetchData();
@@ -58,13 +58,8 @@ const Row = ({ title, fetchUrl, largeRow, largeRowContainer }) => {
         slidesPerView={5.3}
         navigation
         pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
+        scrollbar={{ draggable: true }}
         loop={true}
-        on={{
-          slideChange: function () {
-            console.log("1");
-          },
-        }}
       >
         {movies.map((movie) => (
           <SwiperSlide className="row__slide">
