@@ -12,9 +12,7 @@ function Home() {
     <div className="App">
       <Nav />
       <Banner />
-
       <Row
-        title="Trending Now"
         largeRow={true}
         largeRowContainer={true}
         fetchUrl={requests.fetchTrending}
@@ -29,7 +27,6 @@ function Home() {
       />
       <Row title="Horror Movie" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Documantaries" fetchUrl={requests.fetchDocumantaries} />
-
       <Footer />
     </div>
   );

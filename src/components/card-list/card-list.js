@@ -2,11 +2,11 @@ import "./card-list.scss";
 import "../row/row.scss";
 import React, { useState, useEffect } from "react";
 import axios from "../../axios";
-
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
-const base_Url = "https://image.tmdb.org/t/p/original/";
+import { Link } from "react-router-dom";
 
+const base_Url = "https://image.tmdb.org/t/p/original/";
 const CardList = ({ fetchUrl }) => {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
@@ -18,12 +18,11 @@ const CardList = ({ fetchUrl }) => {
 
       return request;
     }
-
     fetchData();
   }, [fetchUrl]);
 
   const opts = {
-    height: "390",
+    height: "100%",
     width: "100%",
     playerVars: {
       autoplay: 1,
@@ -55,7 +54,12 @@ const CardList = ({ fetchUrl }) => {
         />
       ))}
 
-      {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
+      {trailerUrl && 
+        <div className="movieCard__popup">
+          <YouTube videoId={trailerUrl} opts={opts} className="movieCard__video" />
+          <Link to="/" className="movieCard__close-btn"></Link>
+        </div>
+      }
     </div>
   );
 };

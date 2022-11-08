@@ -35,7 +35,7 @@ function Nav() {
               Main page
             </Link>
 
-            <Link className="nav__link" to="/search">
+            <Link className="nav__link" to="/searchPage">
               <img
                 src={require("../../img/search_icon.png")}
                 alt="Search Icon"

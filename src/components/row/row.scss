@@ -3,13 +3,16 @@
   color: white;
 
   &__large-container {
-    margin-top: -200px;
+    margin-top: -150px;
   }
 
   &__title {
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.7rem;
     padding-top: 3rem;
     z-index: 5;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
   }
 
   &__items {

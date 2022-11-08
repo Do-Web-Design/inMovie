@@ -15,7 +15,6 @@ function Footer() {
                 src={require("../../img/logo.png")}
               />
             </Link>
-
             <ul className="footer__media--links">
               <li>
                 <a href="https://www.instagram.com/" target="_blank">

@@ -1,0 +1,35 @@
+.movieCard{
+    &__popup{
+        position: fixed;
+        height: 100vh;
+        left: 0;
+        right: 0px;
+        background-color: #131212eb;
+        padding-top: 60px;
+        z-index: 10;
+        top: 0;
+    }
+    &__video{
+        padding: 60px;
+        height: 80%;
+        position: relative;
+    }
+    &__close-btn{
+        height: 100px;
+        width: 100px;
+        background-image: url(../../img/close-btn.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        filter: brightness(100);
+        opacity: 0.2;
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.2s;
+        &:hover{
+            height: 105px;
+            width: 105px;
+        }
+    }
+}
